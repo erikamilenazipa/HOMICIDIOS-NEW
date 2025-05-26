@@ -1,3 +1,7 @@
+-- Crear tabla de productos con campos CodMpio, CodDpto, NomMpio, Latitud, Longitud.
+-- Es importante definir claves primarias y restricciones de integridad para garantizar datos consistentes y facilitar las consultas.
+
+
 CREATE TABLE DataWarehouse.dbo.dim_Municipios (
 	CodMpio int NOT NULL,
 	CodDpto tinyint NOT NULL,
