@@ -1,3 +1,6 @@
+-- Crear tabla de productos con campos Annio, Mes, Dia, Semana, Trimestre, DiaSeamama, fechaDeHecho.
+-- Es importante definir claves primarias y restricciones de integridad para garantizar datos consistentes y facilitar las consultas.
+
 CREATE TABLE DataWarehouse.dbo.dim_fechas (
 	Annio int NOT NULL,
 	Mes tinyint NOT NULL,
