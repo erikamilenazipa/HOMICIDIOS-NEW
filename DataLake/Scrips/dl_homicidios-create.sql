@@ -1,3 +1,7 @@
+-- Crear tabla de productos con campos FECHA_HECHO, COD_DEPTO, DEPARTAMENTO, COD_MUNI, MUNICIPIO, ZONA, SEXO, CANTIDAD.
+-- Es importante definir claves primarias y restricciones de integridad para garantizar datos consistentes y facilitar las consultas.
+
+
 IF OBJECT_ID('dbo.DL_Homicidios', 'U') IS NULL
 BEGIN
 	CREATE TABLE dbo.DL_Homicidios (
