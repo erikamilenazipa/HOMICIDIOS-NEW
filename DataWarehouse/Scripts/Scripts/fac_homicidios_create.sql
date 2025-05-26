@@ -1,3 +1,7 @@
+-- Crear tabla de productos con campos idHomicidio, fechaHecho, COD_MPIO, id_zona, id_sexo, Cantidad, Trimestre, Mes, DiaSemana.
+-- Es importante definir claves primarias y restricciones de integridad para garantizar datos consistentes y facilitar las consultas.
+
+
 CREATE TABLE DataWarehouse.dbo.fac_homicidios (
 	idHomicidio int IDENTITY(1,1) NOT NULL,
 	fechaHecho date NOT NULL,
