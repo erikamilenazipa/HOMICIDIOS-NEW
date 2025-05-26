@@ -1,3 +1,7 @@
+-- Crear tabla de productos con campos COD_DPTO, NOM_DPTO, COD_MPIO, NOM_MPIO, TIPO, LATITUD, LONGITUD, GeoMunicipio.
+-- Es importante definir claves primarias y restricciones de integridad para garantizar datos consistentes y facilitar las consultas.
+
+
 IF OBJECT_ID('dbo.DL_Municipios', 'U') IS NULL
 BEGIN
 	CREATE TABLE dbo.DL_Municipios (
