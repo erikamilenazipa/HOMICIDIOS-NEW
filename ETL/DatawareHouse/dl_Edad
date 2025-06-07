@@ -1,0 +1,12 @@
+-- Datawarehouse.dbo.dl_Edad definition
+
+-- Drop table
+
+-- DROP TABLE Datawarehouse.dbo.dl_Edad;
+
+CREATE TABLE Datawarehouse.dbo.dl_Edad (
+	Fecha_del_evento date NULL,
+	Nacionalidad nvarchar(15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Sexo nvarchar(5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	Nombre_del_Evento nvarchar(85) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+);
